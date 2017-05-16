@@ -5,7 +5,7 @@ var Main = (props) => {
   return (
     <div>
       <Nav />
-      {/* <h1>Boilerplate React App</h1> */}
+      <h1>Main</h1>
       {props.children}
     </div>
   );
