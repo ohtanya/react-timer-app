@@ -2,14 +2,14 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
-var Countdown = require('Countdown');
 var Timer = require('Timer');
+var Countdown = require('Countdown');
 
-// load foundation-sites
-require('style!css!foundation-sites/dist/css/foundation.min.css');
+// Load foundation
+require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
-// load app css
+// App css
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
